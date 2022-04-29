@@ -15,6 +15,31 @@
 ![step 3](store/3.png)
 
 
-Note:
+#### On the step:
+
+1、java.lang
+
+2、java.util
+
+3、java.util.concurrent
+
+4、java.io
+
+5、java.nio
+
+6、java.lang.annotation
+
+7、java.lang.reflect
+
+8、java.util.function +java.util.stream
+
+9、java.time
+
+10、java.math
+
+11、java.net
+
+
+#### One more things:
 
 1、rm `com.sun` and `sun` package, Compilation may fail due to missing dependencies.
