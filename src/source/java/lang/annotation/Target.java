@@ -72,6 +72,7 @@ package java.lang.annotation;
  * @since 1.5
  * @jls 9.6.4.1 @Target
  * @jls 9.7.4 Where Annotations May Appear
+ * 说明注解的用途，是修饰类还是方法还是参数等等
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)

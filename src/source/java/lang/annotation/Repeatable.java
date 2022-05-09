@@ -35,6 +35,7 @@ package java.lang.annotation;
  * @since 1.8
  * @jls 9.6 Annotation Types
  * @jls 9.7 Annotations
+ * 为了解决同一注解不能重复在方法、类、属性（语法糖）
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
