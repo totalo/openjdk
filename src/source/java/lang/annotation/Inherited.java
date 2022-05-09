@@ -45,6 +45,7 @@ package java.lang.annotation;
  * @author  Joshua Bloch
  * @since 1.5
  * @jls 9.6.3.3 @Inherited
+ * 只能用来标识注解，标识该直接具有继承性，即被该注解修饰的注解修饰类时，该类的子类也默认被该注解所标识
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)

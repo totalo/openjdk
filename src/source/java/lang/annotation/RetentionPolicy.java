@@ -33,10 +33,12 @@ package java.lang.annotation;
  *
  * @author  Joshua Bloch
  * @since 1.5
+ * 说明注解的作用域
  */
 public enum RetentionPolicy {
     /**
      * Annotations are to be discarded by the compiler.
+     * 仅仅在编译器处理阶段生效，例如Override，标志子类覆盖父类的方法，在编译时会进行语法检查，编译器处理完成后，就没任何作用了。
      */
     SOURCE,
 
@@ -44,13 +46,14 @@ public enum RetentionPolicy {
      * Annotations are to be recorded in the class file by the compiler
      * but need not be retained by the VM at run time.  This is the default
      * behavior.
+     * 默认的行为，将annotation存储在class文件中，类加载会被抛弃
      */
     CLASS,
 
     /**
      * Annotations are to be recorded in the class file by the compiler and
      * retained by the VM at run time, so they may be read reflectively.
-     *
+     * 将annotation存入class文件，支持jvm读入
      * @see java.lang.reflect.AnnotatedElement
      */
     RUNTIME

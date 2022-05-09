@@ -35,6 +35,7 @@ package java.lang.annotation;
  * @author  Josh Bloch
  * @see     java.lang.reflect.AnnotatedElement
  * @since   1.5
+ * 参数不匹配时，抛出error
  */
 public class AnnotationFormatError extends Error {
     private static final long serialVersionUID = -4256701562333669892L;

@@ -40,6 +40,7 @@ package java.lang.annotation;
  *
  * @author  Josh Bloch
  * @since   1.5
+ * 接口，每一个annotation 对应一个RetentionPolicy（注解的策略，即作用域），对应n个ElementType（指定注解的用途）
  */
 public interface Annotation {
     /**

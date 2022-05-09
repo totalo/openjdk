@@ -35,6 +35,7 @@ package java.lang.annotation;
  *
  * @author  Joshua Bloch
  * @since 1.5
+ * 是否出现在javadoc中
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)

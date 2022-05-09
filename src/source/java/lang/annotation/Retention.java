@@ -39,6 +39,7 @@ package java.lang.annotation;
  * @author  Joshua Bloch
  * @since 1.5
  * @jls 9.6.3.2 @Retention
+ * 注明注解的作用域的注解
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)

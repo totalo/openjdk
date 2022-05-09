@@ -45,6 +45,7 @@ import java.lang.annotation.*;
  * @author  Joshua Bloch
  * @jls 9.6.1.4 @Override
  * @since 1.5
+ * 只能标注方法，标识覆盖父类中方法
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.SOURCE)
