@@ -117,6 +117,7 @@ public final class Boolean implements java.io.Serializable,
      *                 representation to be parsed
      * @return     the boolean represented by the string argument
      * @since 1.5
+     * valueof 调用的是这个方法
      */
     public static boolean parseBoolean(String s) {
         return ((s != null) && s.equalsIgnoreCase("true"));
